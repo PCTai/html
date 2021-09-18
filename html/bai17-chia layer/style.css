@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+.khoi-do{
+    width: 300px;
+    height: 300px;
+    margin: 30px;
+    background-color: red;
+    position: relative;/* làm mốc */
+}
+.khoi-xanh{
+    width: 300px;
+    height: 300px;
+    margin: 30px;
+    background-color: blue;
+}
+.khoi-den{
+    width: 300px;
+    height: 100px;
+    background-color: #00000057;
+    position: absolute; /*định vị theo mốc*/
+    bottom: 0px;
+    left: 0px;
+    
+
+
+}
+.khoi-bt{
+    width: 275px;
+    height: 190px;
+    padding-right: 15px;
+}
+.noi-dung{
+    width: 260px;
+    height: 190px;
+    position: relative;
+}
+.image{
+    width: 260px;
+    height: 190px;
+}
+.khoi-bt h2{
+    width: 260px;
+    text-transform: uppercase;
+    padding-left: 30px;
+    border-left: 10px red solid;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:#000000ba;
+}
+.noi-dung a{
+    width: 260px;
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-left: 30px;
+    
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:#000000ba;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}

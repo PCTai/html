@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-color: #E7E7E7;
+}
+.khoi-hieu-ung{
+    width: 380px;
+    height: 210px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #FFFFFF;
+}
+.font-roboto{
+    font-family: 'Roboto', sans-serif;
+    background-color: #FFFFFF;
+    border-bottom: 2px solid black;
+
+}
+.font-roboto h3{
+    background-color: black;
+    display: inline;
+    color: #FADA1A;
+    padding: 5px 10px;
+}
+.font-icon{
+    font-family: 'Roboto', sans-serif;
+    background-color: #FFFFFF;
+    padding-top:10px;
+    padding-bottom: 5px;
+    overflow: hidden;
+}
+.icon{
+    background-color: #385898;
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin-right:  10px;
+    text-align: center;
+    transition: 0.5s;
+    margin-top: 20px;
+
+}
+.icon i{
+    font-size: 50px;
+    color: white;
+    background-color: transparent;
+    margin-top: 10px;
+    display: block;
+
+}
+.icon p{
+    background-color: transparent;
+    margin-top: 10px;
+    font-weight: bold;
+    color: white;
+
+}
+.twitter{
+    background-color: #1DCAF1;
+}
+.google{
+    background-color: #DD4B39;
+}
+.icon a{
+    text-decoration: none;
+}
+.icon:hover{
+    background-color:  red  ;
+    
+    margin-top: 10px;
+    transition: 0.5s;
+}
+.display{
+    background-color: white;
+    display: inline-block;
+    left: 40px;
+    top: 17px;
+    color: #FADA1A;
+    padding-right: 10px;
+    padding-left: 10px;
+    position: relative;
+
+}
